@@ -27,7 +27,7 @@ export default function GetUserForm() {
   return (
     <div className="w-full max-w-md mx-auto border mt-6 border-black rounded-lg overflow-hidden bg-white text-black">
       <div className="p-4 border-b border-black">
-        <h2 className="text-2xl font-bold">Get User</h2>
+        <h2 className="text-2xl font-bold text-center">Get User</h2>
       </div>
       <form onSubmit={handleSubmit} className="p-4">
         <div className="mb-4">

@@ -29,7 +29,7 @@ export default function DeleteUserForm() {
   return (
     <div className="w-full max-w-md mx-auto border mt-8 border-black rounded-lg overflow-hidden bg-white text-black">
       <div className="p-4 border-b border-black">
-        <h2 className="text-2xl font-bold">Delete User</h2>
+        <h2 className="text-2xl font-bold text-center">Delete User</h2>
       </div>
       <form onSubmit={handleDelete} className="p-4">
         <div className="mb-4">

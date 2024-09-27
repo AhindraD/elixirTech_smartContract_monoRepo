@@ -34,7 +34,7 @@ export default function CreateUser() {
       <main className="container mx-auto mt-8 px-4">
         <div className="w-full max-w-md mx-auto border border-black rounded-lg overflow-hidden">
           <div className="p-4 border-b border-black">
-            <h2 className="text-2xl font-bold">Create User</h2>
+            <h2 className="text-2xl font-bold text-center">Create User</h2>
           </div>
           <form onSubmit={handleSubmit} className="p-4">
             <div className="space-y-4">

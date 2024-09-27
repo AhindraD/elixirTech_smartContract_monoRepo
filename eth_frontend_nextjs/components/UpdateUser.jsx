@@ -2,12 +2,15 @@ export default function UpdateUserForm() {
   return (
     <div className="w-full mt-6 max-w-md mx-auto border border-black rounded-lg overflow-hidden bg-white text-black">
       <div className="p-4 border-b border-black">
-        <h2 className="text-2xl font-bold">updateUser</h2>
+        <h2 className="text-2xl font-bold text-center ">Update User</h2>
       </div>
       <form className="p-4">
         <div className="space-y-4">
           <div>
-            <label htmlFor="id" className="block text-sm font-medium text-black mb-1">
+            <label
+              htmlFor="id"
+              className="block text-sm font-medium text-black mb-1"
+            >
               ID
             </label>
             <input
@@ -18,7 +21,10 @@ export default function UpdateUserForm() {
             />
           </div>
           <div>
-            <label htmlFor="name" className="block text-sm font-medium text-black mb-1">
+            <label
+              htmlFor="name"
+              className="block text-sm font-medium text-black mb-1"
+            >
               Name
             </label>
             <input
@@ -29,7 +35,10 @@ export default function UpdateUserForm() {
             />
           </div>
           <div>
-            <label htmlFor="favNumber" className="block text-sm font-medium text-black mb-1">
+            <label
+              htmlFor="favNumber"
+              className="block text-sm font-medium text-black mb-1"
+            >
               Fav Number
             </label>
             <input
@@ -50,5 +59,5 @@ export default function UpdateUserForm() {
         </div>
       </form>
     </div>
-  )
+  );
 }
