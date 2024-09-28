@@ -45,4 +45,14 @@ contract FavNumberStore{
         }
         revert("user not found...");
     }
+
+
+    function getFavByUserName(string memory _name) public view returns (string memory){
+        for(uint256 i=0; i<users.length; i++){
+            if(users[i].name==_name){
+                return users[i].favatNumber.toString();
+            }
+        }
+        return "User not found...";
+    }
 }
